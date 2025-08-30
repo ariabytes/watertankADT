@@ -1,0 +1,11 @@
+// Eclipse stuff
+.project
+.classpath
+.settings/
+
+// Build output
+bin/
+
+// OS-specific
+.DS_Store
+Thumbs.db
