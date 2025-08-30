@@ -20,7 +20,6 @@ src/
 ```
 
 # 📖 Sample Output
-<img width="750" height="500" alt="image" src="https://github.com/user-attachments/assets/bd9a9964-c84a-4701-8eb4-a66f97965c48" />
-<img width="748" height="398" alt="image" src="https://github.com/user-attachments/assets/9fb8ab40-530d-4bae-9d8a-c964f7b64556" />
-<img width="747" height="370" alt="image" src="https://github.com/user-attachments/assets/653c968a-edfa-4e0b-810e-cabcc29ad7dc" />
-<img width="746" height="147" alt="image" src="https://github.com/user-attachments/assets/f9056007-9c21-42f6-af33-44d0ea72d971" />
+<img width="783" height="529" alt="image" src="https://github.com/user-attachments/assets/0be35728-c485-4c88-b379-c40020d8fde4" />
+<img width="783" height="490" alt="image" src="https://github.com/user-attachments/assets/6814c93f-3b9e-4778-b124-b0c6414acc49" />
+<img width="779" height="515" alt="image" src="https://github.com/user-attachments/assets/c466953e-b4fe-44f5-b52f-ceb9480f4f13" />
