@@ -14,18 +14,18 @@ public class WaterTank implements WaterInterface {
 
 	@Override
 	public boolean isEmpty() {
-		return currentLevel <= 0;
+		return currentLevel == 0;
 	}
 
 	@Override
 	public boolean isFull() {
-		return currentLevel > MAX_CAP;
+		return currentLevel >= MAX_CAP;
 	}
 
 	@Override
 	public void fill(int amount) {
 		// if amount exceeds maximum capacity, it will notify the user and only allow max_cap as current level
-		if (amount + currentLevel > MAX_CAP ||isFull()) {
+		if (amount + currentLevel > MAX_CAP) {
 			history.add("Tried to fill " + amount + " gallons → Overflow! Tank set to full.");
 			currentLevel = MAX_CAP;
 			System.out.println("Tank overflow! Now full at " + MAX_CAP + " gallons.");
@@ -41,7 +41,7 @@ public class WaterTank implements WaterInterface {
 	@Override
 	public void drain(int amount) {
 		// if amount drained is less than zero, it will notify the user and only allows zero (minimum capacity) as the current level
-		if (currentLevel - amount <= 0 ||isEmpty()) {
+		if (currentLevel - amount < 0) {
 			history.add("Tried to drain " + amount + " gallons → Tank Empty!");
 			currentLevel = 0;
 			System.out.println("Tank is EMPTY! Can't drain more.");
@@ -60,7 +60,4 @@ public class WaterTank implements WaterInterface {
 			System.out.println(event);
 		}
 	}
-
-	
-
 }
